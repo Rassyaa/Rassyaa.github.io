@@ -100,12 +100,11 @@ content {
 	justify-content: space-around;
 }
 
-content .card1 {
+content .card {
 	/* Style */
 	width: 250px;
 	height: 300px;
 	margin: 50px;
-	background-image: url(Articles/penyakitLangka/Images/sample.png);
 	background-size: cover;
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(16, 16, 16, .3);
@@ -116,7 +115,7 @@ content .card1 {
 	align-items: center;
 }
 
-content .card1 h4 {
+content .card h4 {
 	/* Font */
 	color: #FFFFFF;
 	font-size: 1.2rem;
@@ -125,7 +124,7 @@ content .card1 h4 {
 	animation: glowText 2s infinite;
 }
 
-content .card1 a {
+content .card a {
 	/* Font */
 	color: #FFFFFF;
 	text-decoration: none;
@@ -135,12 +134,16 @@ content .card1 a {
 	border-radius: 10px;
 }
 
-content .card1 a:hover {
+content .card a:hover {
 	/* Font */
 	color: #FFDE4D;
 	/* Style */
 	background-color: #FFFFFF;
 	animation: glowText 2s infinite;
+}
+
+content .c1 {
+ background-image: url(Articles/penyakitLangka/Images/sample.png);
 }
 
 
